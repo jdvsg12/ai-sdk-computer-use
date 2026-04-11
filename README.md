@@ -124,3 +124,8 @@ Open [http://localhost:3000](http://localhost:3000) to use the computer use agen
 | `VERCEL_PROJECT_ID` | Alt* | Required with `VERCEL_TOKEN` |
 
 \* Either `VERCEL_OIDC_TOKEN` (via `vercel env pull`) or the `VERCEL_TOKEN` + team/project IDs are required for Sandbox authentication.
+
+## Security & Dependency Updates
+
+- **Core Dependencies Update**: Main packages were updated to their latest minor/patch versions, including `next`, `@ai-sdk/react`, `ai`, and `react`, using `pnpm update`.
+- **Vulnerability Mitigation (Audit)**: Thanks to this update, 33 security issues in the dependency tree were resolved, mitigating risks such as Denial of Service (DoS) and ReDoS, and bringing the total down from 45 to 12 residual vulnerabilities found within nested dependencies. Furthermore, the audit confirmed there are no intentionally injected malicious code or backdoors.

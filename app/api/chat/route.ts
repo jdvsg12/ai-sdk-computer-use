@@ -28,10 +28,9 @@ export async function POST(req: Request) {
 
     // Create response stream
     const response = result.toDataStreamResponse({
-      // @ts-expect-error eheljfe
-      getErrorMessage(error) {
-        console.error(error);
-        return error;
+      getErrorMessage: (error: unknown) => {
+        if (error instanceof Error) return error.message;
+        return String(error);
       },
     });
 
