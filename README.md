@@ -1,10 +1,17 @@
-<a href="https://ai-sdk-computer-use.vercel.app">
+<a href="https://ai-sdk-computer-use-two-sigma.vercel.app">
   <h1 align="center">AI SDK Computer Use Demo</h1>
 </a>
 
 <p align="center">
   An open-source AI chatbot demonstrating computer use capabilities with Anthropic Claude Sonnet 4.5, Vercel Sandboxes, and the AI SDK by Vercel.
 </p>
+
+## Project Links
+
+- **Live Production URL**: [https://ai-sdk-computer-use-two-sigma.vercel.app](https://ai-sdk-computer-use-two-sigma.vercel.app)
+- **GitHub Repository**: [https://github.com/jdvsg12/ai-sdk-computer-use](https://github.com/jdvsg12/ai-sdk-computer-use)
+- **Demo Video**: [https://youtu.be/GvGkMOASttU](https://youtu.be/GvGkMOASttU)
+
 
 <p align="center">
   <a href="#features"><strong>Features</strong></a> ·
@@ -54,7 +61,7 @@ User ↔ Next.js Chat UI ↔ AI SDK ↔ Claude Sonnet 4.5
 
 You can deploy your own version to Vercel by clicking the button below:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?project-name=AI+SDK+Computer+Use+Demo&repository-name=ai-sdk-computer-use&repository-url=https%3A%2F%2Fgithub.com%2Fvercel-labs%2Fai-sdk-computer-use&demo-title=AI+SDK+Computer+Use+Demo&demo-url=https%3A%2F%2Fai-sdk-computer-use.vercel.app%2F&demo-description=A+chatbot+application+built+with+Next.js+demonstrating+Anthropic+Claude+Sonnet+4.5+computer+use+capabilities+with+Vercel+Sandboxes&env=ANTHROPIC_API_KEY,SANDBOX_SNAPSHOT_ID)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?project-name=AI+SDK+Computer+Use+Demo&repository-name=ai-sdk-computer-use&repository-url=https%3A%2F%2Fgithub.com%2Fjdvsg12%2Fai-sdk-computer-use&demo-title=AI+SDK+Computer+Use+Demo&demo-url=https%3A%2F%2Fai-sdk-computer-use-two-sigma.vercel.app%2F&demo-description=A+chatbot+application+built+with+Next.js+demonstrating+Anthropic+Claude+Sonnet+4.5+computer+use+capabilities+with+Vercel+Sandboxes&env=ANTHROPIC_API_KEY,SANDBOX_SNAPSHOT_ID)
 
 ## Running Locally
 
